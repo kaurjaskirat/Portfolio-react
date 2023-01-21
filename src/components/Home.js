@@ -5,13 +5,7 @@ import {FaLinkedin,FaGithubSquare,FaInstagramSquare,FaMailBulk } from "react-ico
 
 const Home = () => {
 return(
-   
-  
     <div className='Home'>
-       
-
-  
-
         <p style={{color:"red",fontSize:"160%"}}>Hi,my name is</p>
     <h1 style={{fontSize:"360%"}}>Jaskirat Kaur Chhabra</h1>
     <h3 >I'm a Developer</h3>
