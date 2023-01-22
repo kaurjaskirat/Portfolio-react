@@ -7,6 +7,8 @@ import about1 from './images/about1.png';
 const About = () => {
     return(
         <div className='About'>
+      <hr style={{fontWeight:"bold"}}></hr>
+
             <h1 style={{color:"rgb(27, 16, 74)",marginLeft:"40%",fontSize:"280%",textDecoration:"underline"}}>About Me</h1>
             <h3 style={{color:"rgb(27, 16, 74)",marginLeft:"40%",fontSize:"150%",marginTop:"5%"}}>Hi! I'm Jaskirat,nice to meet you.Please take a look around</h3>
   
