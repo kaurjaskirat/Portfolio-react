@@ -1,0 +1,8 @@
+.Skills .icons{
+    flex-direction:column;
+    display:flex;
+    margin-top:15%
+  }
+  .Skills{
+    margin-top:15%
+  }

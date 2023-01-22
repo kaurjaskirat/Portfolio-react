@@ -3,7 +3,7 @@
    
 }
 .About .btn1{
-    margin-left:35%;
+    margin-left:45%;
     font-size:150%;
     background-color:rgb(27, 16, 74);
     color:white;
@@ -15,7 +15,7 @@
     height:80%
 }
 .About .btn2{
-    margin-left:55%;
+    margin-left:65%;
     font-size:150%;
     background-color:rgb(27, 16, 74);
     color:white;
@@ -27,18 +27,50 @@
     height:80%
 }
 
-.About .pi{
-    box-shadow: 0 0 5px 4px rgba(14, 13, 16, 0.5);
-    display:flex;
-    width:60%;
-    margin-top:-7%;
+/* .About .pi{ */
+    /* box-shadow: 0 0 5px 4px rgba(14, 13, 16, 0.5); */
+    /* display:flex; */
+    /* width:30%; */
+    /* opacity:1; */
+    /* margin-top:-10%;
     flex-direction:column;
     height:260px;
-    margin-left:25%;
-}
+    margin-left:55%;
+} */
 
 .About .icons{
     flex-direction:column;
     display:flex;
     margin-top:-5%
+  }
+  .About1 img{
+    margin-top:-25%;
+    height:10%;
+    margin-left:10%
+  }
+  .About .icons:hover{
+    font-size:larger;
+    }
+  
+  @media screen and (max-width:390px){
+    .About{
+margin-left:-16%
+    }
+    .About .icons{
+margin-left:15%;
+margin-top:-60%
+    }
+    .About1 img{
+        opacity:0;
+    }
+    .About .btn1{
+        width:30%;
+        height:60%;
+        margin-top:30%;
+    }
+    .About .btn2{
+        width:33%;
+        margin-top:10%;
+        margin-left:45%;
+    }
   }
