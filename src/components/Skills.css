@@ -7,3 +7,36 @@
     margin-top:15%;
     margin-bottom :10%;
   }
+
+  @media screen and (max-width:390px){
+    .Skills h3{
+  /* font-size:50%; */
+  /* margin-left:-8% */
+    }.Skills .fs{
+flex-direction:column;
+display:flex;
+      width:300%;
+    }
+    .Skills .fs1{
+      margin-right:35%;
+    }
+    .Skills .fs2{
+      margin-top:-15%;
+    }
+    .Skills .fs3{
+      margin-top:4%;
+    }
+    .Skills .fs4{
+      margin-top:4%;
+    }
+    .Skills .fs5{
+      margin-top:4%;
+    }
+    .Skills .fs7{
+      margin-top:-15%;
+    }
+    .Skills .fs8{
+      margin-top:4%;
+    }
+
+  }
