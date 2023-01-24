@@ -3,7 +3,7 @@ import './Footer.css';
 import {FaLinkedin,FaGithubSquare,FaInstagramSquare,FaMailBulk,FaTelegramPlane ,FaFacebook} from "react-icons/fa";
 const Footer = () =>{
     return(
-        <div style={{backgroundColor:"rgba(20, 20, 21, 0.941)",width:"100%",paddingTop:"50px",marginTop:"-40%"}}>
+        <div style={{backgroundColor:"rgba(20, 20, 21, 0.941)",width:"100%",paddingTop:"50px",marginTop:"10%", }}>
              <div className='icons'>
     <FaLinkedin style={{color:"white",fontSize:"200%",marginLeft:"35%"}} className='icons1'/>
      <FaGithubSquare style={{color:"white",fontSize:"200%",marginLeft:"3%"}} className='icons2'/>
