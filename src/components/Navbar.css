@@ -8,7 +8,7 @@ nav{
 .list{
     display: flex;
     text-decoration: none;
-    width:30%;
+    
     position: relative;
     list-style-type:none;
     background-color:rgb(16, 99, 115);
@@ -17,7 +17,7 @@ nav{
     color: aliceblue;
 }
 .items{
-    margin-right: 180px;
+    margin-right: 50px;
 }
 .btn{
 position: absolute;
@@ -30,6 +30,7 @@ color:#000;
 @media screen and (max-width:500px){
     .list{
         flex-direction:column;
+        width:30%;
         height:auto;
     }
     .items:nth-child(1){
