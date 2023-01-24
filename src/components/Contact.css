@@ -22,4 +22,27 @@
 padding:0 0 6.5px 0;
 color:rgb(27, 16, 74)
  }
- 
+ @media screen and (max-width:390px){
+    
+    .contact__form {
+        margin-top:-75%;
+        margin-left:10%;
+    }
+    .contact__form-input {
+        width:70%;
+        padding:15px 0 15px 0;
+        border-radius:0.75rem;
+        border: 2px solid rgba(0,0,0,0.3);
+     
+     }
+     .contact__form-input1 {
+        width:60%;
+        border-radius:0.75rem;
+        border: 2px solid rgba(0,0,0,0.3);
+     }
+ .Contact h1{
+    /* margin-left:"10%"; */
+    padding:0 180px 0 0
+ }
+
+ }

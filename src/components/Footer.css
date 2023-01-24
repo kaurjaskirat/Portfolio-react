@@ -34,3 +34,9 @@
 .icons6{
     margin-bottom:3%
 }
+
+@media screen and (max-width:390px){
+    .icons6{
+        display:none;
+    }
+}
