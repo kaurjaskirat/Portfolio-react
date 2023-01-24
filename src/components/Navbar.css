@@ -8,20 +8,21 @@ nav{
 .list{
     display: flex;
     text-decoration: none;
+    width:30%;
     position: relative;
     list-style-type:none;
     background-color:rgb(16, 99, 115);
-    justify-content: right;
+    justify-content: center;
     align-items: center;
     color: aliceblue;
 }
 .items{
-    margin-right: 50px;
+    margin-right: 180px;
 }
 .btn{
 position: absolute;
 display:none;
-right: 8px;
+right: 780px;
 top: 15px;
 color:#000;
 }

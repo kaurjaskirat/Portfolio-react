@@ -18,7 +18,7 @@ window.addEventListener('resize',changeWidth)
   return (
     <div className='container'>
         <nav>
-          {(toggleMenu || screenWidth>500) && (
+          {(toggleMenu || screenWidth>375) && (
             <ul className='list'>
                 <li className='items'>Home</li>
                 <li className='items'>About</li>

@@ -9,10 +9,8 @@
   }
 
   @media screen and (max-width:390px){
-    .Skills h3{
-  /* font-size:50%; */
-  /* margin-left:-8% */
-    }.Skills .fs{
+   
+    .Skills .fs{
 flex-direction:column;
 display:flex;
       width:300%;
