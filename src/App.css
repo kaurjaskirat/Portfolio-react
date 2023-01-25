@@ -4,23 +4,30 @@
   margin-top:12%;
 margin-left:20%;
 color: rgb(27, 16, 74);
-
+margin-bottom:-18%
 
 }
 .but{
-  color:rgb(11, 10, 10);
-  background-color: rgb(139, 134, 163);
-  font-size:100%
+  background-color: rgb(248, 247, 255);
+  color:rgb(27, 16, 74);
+  
+  font-size:100%;
+  margin-top:5%;
+  border-radius:0.75rem;
+  padding:15px 0 15px 0;
+  margin-left:10%;
+  border:2px solid rgba(0,0,0,0.3);
+  width:15%
 }
 .but:hover{
-  background-color: rgb(35, 5, 131);
-  color:white;
+  color:rgb(245, 240, 240);
+  background-color: rgb(27, 16, 74);
 }
 .Home1 img{
   margin-left: 70%;
   border-radius: 50%;
   width: 25%;
-  margin-top: -30%;
+  margin-top: -35%;
   box-shadow: 0 0 5px 4px rgba(14, 13, 16, 0.5);
   margin-bottom: 100%;
 }
@@ -33,9 +40,7 @@ color: rgb(27, 16, 74);
   flex-direction:column;
   display:flex;
 }
-.Home .icons:hover{
-font-size:larger;
-}
+
 
 @media screen and (max-width:850px){
   .Home1 img{

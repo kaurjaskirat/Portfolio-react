@@ -10,7 +10,7 @@ return(
     <h1 style={{fontSize:"360%"}}>Jaskirat Kaur Chhabra</h1>
     <h3 >I'm a Developer</h3>
     <p style={{color:"black",fontSize:"160%",fontStyle:'Italic'}}> I like to make new and responsive websites that are user friendly... </p>
-    <button className="but">View Work →</button>
+    <button  className="but">View Work →</button>
     <div className='Home1'>
     <img src={jass6} alt="this is car image" /></div>
     <div className='icons'>
