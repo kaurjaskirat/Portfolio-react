@@ -5,19 +5,19 @@ import './Work.css';
 
 const Work = () => {
     return(
-        <div style={{marginBottom:"10%"}} className='Work'>
+        <div style={{marginBottom:"20%"}} className='Work' id='work'>
             <hr style={{fontWeight:"bold"}}></hr>
     
 
             <h1 style={{marginLeft:"50%",color:"rgb(27, 16, 74)",textDecoration:"underline"}}>WORK</h1>
             <div style={{ width:"22%",padding:"100px 0 100px 0",marginTop:"5%",marginLeft:"12%",color:"black",fontWeight:"bold",fontSize:"200%",justifyContent:"center",textAlign:"center"}} className='photo'>PHOTOGALLERY
             <div></div>
-            <button className="btnn">Code</button>
+            <a href="https://github.com/kaurjaskirat/photogallery-react"> <button className="btnn">Code</button></a>
             <button className="btnnn">Demo</button>
             </div>
             <div style={{width:"22%",padding:"100px 2px 100px 0",marginTop:"-20%",marginLeft:"41%",color:"black",fontWeight:"bold",fontSize:"200%",justifyContent:"center",textAlign:"center"}} className='yt'>YOUTUBE CLONE
             <div></div>
-            <button className="btnn">Code</button>
+            <a href="https://github.com/kaurjaskirat/YouTube-react"> <button className="btnn">Code</button></a>
             <button className="btnnn">Demo</button>
             </div>
             <div style={{width:"22%",padding:"100px 2px 100px 0",marginTop:"-19%",marginLeft:"70%",color:"black",fontWeight:"bold",fontSize:"200%",justifyContent:"center",textAlign:"center"}} className='wt'>WEATHER APP

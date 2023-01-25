@@ -21,10 +21,10 @@ window.addEventListener('resize',changeWidth)
           {(toggleMenu || screenWidth>375) && (
             <ul className='list'>
                 <li className='items'>Home</li>
-                <li className='items'>About</li>
-                <li className='items'>Skills</li>
-                <li className='items'>Work</li>
-                <li className='items'>Contact</li>
+                <li className='items'><a href ="#about">About</a></li>
+                <li className='items'><a href ="#skills">Skills</a></li>
+                <li className='items'><a href ="#work">Work</a></li>
+                <li className='items'><a href ="#contact">Contact</a></li>
                 
             </ul>)}
             <button onClick={toggleNav} className='btn'>Btn</button>

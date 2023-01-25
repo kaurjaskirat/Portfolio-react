@@ -19,6 +19,12 @@ margin-bottom:-18%
   border:2px solid rgba(0,0,0,0.3);
   width:15%
 }
+.but a{
+  text-decoration:none;
+}
+.but a:hover{
+  color:rgb(245, 240, 240);
+}
 .but:hover{
   color:rgb(245, 240, 240);
   background-color: rgb(27, 16, 74);

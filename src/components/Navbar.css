@@ -19,6 +19,10 @@ nav{
 .items{
     margin-right: 50px;
 }
+.items a{
+    text-decoration:none;
+    color: aliceblue;
+}
 .btn{
 position: absolute;
 display:none;

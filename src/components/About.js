@@ -6,7 +6,7 @@ import about1 from './images/about1.png';
 
 const About = () => {
     return(
-        <div className='About'>
+        <div className='About' id='about'>
       <hr style={{fontWeight:"bold"}}></hr>
 
             <h1 style={{color:"rgb(27, 16, 74)",marginLeft:"40%",fontSize:"280%",textDecoration:"underline"}}>About Me</h1>
@@ -14,8 +14,8 @@ const About = () => {
   
  <p style={{color:"rgb(27, 16, 74)",marginLeft:"40%",fontSize:"150%",marginTop:"2%",}}>I am passionate about building excellent software that improves the lives of those around me.I specialize in creating websites for clients ranging from individuals and small-business all the way to large enterprise cooperations.</p>
         <div className='icons'>
-    <FaLinkedin style={{color:"blue",fontSize:"260%"}}/>
-     <FaGithubSquare style={{color:"black",fontSize:"260%",marginLeft:""}}/>
+        <a href = "https://www.linkedin.com/in/jaskirat-kaur-054930222"> <FaLinkedin style={{color:"blue",fontSize:"260%"}}/></a>
+        <a href ="https://github.com/kaurjaskirat"> <FaGithubSquare style={{color:"black",fontSize:"260%",marginLeft:""}}/></a>
      <FaInstagramSquare style={{color:"rgba(246, 43, 215, 0.941)",fontSize:"260%",marginLeft:""}}/>
      <FaMailBulk style={{color:"black",fontSize:"300%",marginLeft:""}}/>
     </div>

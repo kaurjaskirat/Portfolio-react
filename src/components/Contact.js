@@ -7,7 +7,7 @@ const Contact = () => {
     return(
         <div >
         <hr style={{fontWeight:"bold"}}></hr>
-        <div style={{width:"100%",padding:"50px",backgroundColor:"rgb(27, 16, 74)",marginBottom:"70%"}} className='Contact'>
+        <div style={{width:"100%",padding:"50px",backgroundColor:"rgb(27, 16, 74)",marginBottom:"70%"}} className='Contact' id="contact">
             <h1 style={{color:"white",marginLeft:"40%"}} className="bo">CONTACT ME</h1>
             </div>
             <div>
