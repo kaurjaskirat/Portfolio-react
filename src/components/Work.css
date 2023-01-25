@@ -42,3 +42,26 @@
 .Work .photo:hover .btnn{
     display:absolute;
 }
+@media screen and (max-width:390px){
+    .Work .photo{
+        background-image:none;
+        width:90%;
+    }
+    .Work .yt{
+        background-image:none;
+        width:90%;
+    }
+    .Work .wt{
+        background-image:none;
+        width:90%;
+        margin-right:25%
+    }
+    .Work .btnn{
+        width:110%;
+        border-radius:0.75rem;
+        border:2px solid rgba(0,0,0,0.3);
+    }
+    .Work .btnnn{
+        width:120%;margin-top:5%
+    }
+}
